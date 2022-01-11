@@ -1,8 +1,5 @@
-img {
-  width: 200px;
-  height: 200px;
-}
-
 img.circular {
   border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
