@@ -1,0 +1,127 @@
+body {
+  background-image: url("photo/background.png");
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+div#banner {
+  text-align: center;
+  background-image: url("photo/bannerbg.png");
+  background-repeat: repeat-x;
+}
+
+img#banderImg {
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-shadow: 3px 3px #999999;
+}
+
+div#filmContent {
+  width: 800px;
+  border: 4px solid gray;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 20%;
+  float: left;
+}
+
+div#filmContentLeft {
+  width: 550px;
+  float: left;
+}
+
+img#rottenImg {
+  vertical-align: bottom;
+}
+
+div#topSubHeader {
+  background-image: url("photo/rbg.png");
+  background-repeat: repeat-x;
+  height: 83px;
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+}
+
+div.dividedCol {
+  float: left;
+  width: 47%;
+  column-gap: 2%;
+}
+
+p.commentBox {
+  font-size: 8pt;
+  font-weight: bold;
+  background-color: #e8dc9b;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+img.commentImg {
+  float: left;
+  margin-right: 5px;
+}
+
+img.reviewer {
+  float: left;
+  margin-right: 5px;
+}
+
+div.commentSection {
+  padding-left: 10px;
+  margin-bottom: 20pt;
+}
+
+span.publication {
+  font-style: italic;
+}
+
+div#filmContentRight {
+  width: 250px;
+  background-color: #a2b964;
+  font-size: 8pt;
+  font-family: Arial, sans-serif;
+  float: right;
+}
+
+dl {
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+
+dt {
+  margin-top: 10pt;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+div#pageIndex {
+  clear: right;
+  background-color: #a2b964;
+  text-align: center;
+  padding: 5px;
+}
+
+div#validatorDiv {
+  margin-top: 950px;
+  text-align: right;
+  float: right;
+}
+
+a {
+  opacity: 0.5;
+}
