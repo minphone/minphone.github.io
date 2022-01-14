@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Forms Lab</title>
+    <link href="signup.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <img src="photo/nerdluv.png" alt="nerdLuv"><br>
+    <p>where meek geeks meet</p>
+    <form action="http://mumstudents.org/params.php" method="get">
+        <fieldset>
+            <legend>New User Signup:</legend>
+            <label class="userDataLabel">Name:</label>
+            <input type="text" name="name" maxlength="16">
+            <br>
+
+            <label class="userDataLabel">Gender:</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female" checked>
+            <label for="female">Female</label>
+            <br>
+
+            <label class="userDataLabel">Age:</label>
+            <input type="text" name="age" size="6" maxlength="2">
+            <br>
+
+            <label class="userDataLabel">Personality type:</label>
+            <input type="text" name="personilityTye" size="6" maxlength="4">
+            <a href="http://www.humanmetrics.com/personality">(<span class="redirect">Don't know your type?</span>)</a>
+            <br>
+
+            <label class="userDataLabel">Favorite OS::</label>
+            <select name="favoiteOS">
+                <option selected>Windows</option>
+                <option>Mac OS X</option>
+                <option>Linx</option>
+            </select>
+            <br>
+
+            <label class="userDataLabel">Seeking age:</label>
+            <input type="text" name="minAge" size="6" maxlength="2" placeholder="min"> to
+            <input type="text" name="maxAge" size="6" maxlength="2" placeholder="max">
+            <br>
+
+            <input type="submit" value="Sign Up">
+        </fieldset>
+    </form>
+    <footer>
+        <p>This page is for single nerds to meet and date each other! Type in your personal information and wait for the nerdly luv to begin!
+            <br> Thank you for using our site.
+        </p>
+        <p> Results and page &copy; Copyright NerdLuv Inc.</p>
+        <img src="photo/back.gif" alt="back" id="backIcon"><span class="redirect">Back to front page</span>
+        <div id="validators">
+            <a href="http://validator.w3.org/check?uri=https://win-ei-khaing.github.io/signup.html">
+                <img src="w3c-html.png" alt="Valid HTML5" />
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://win-ei-khaing.github.io/signup.css">
+                <img src="w3c-css.png" alt="Valid CSS" />
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

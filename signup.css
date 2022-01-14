@@ -1,0 +1,46 @@
+label.userDataLabel,
+input,
+select {
+  margin: 10pt;
+}
+
+form {
+  margin-top: 20pt;
+  margin-right: 60%;
+}
+
+legend {
+  border: 1px solid black;
+}
+
+label.userDataLabel {
+  width: 100pt;
+  display: inline-block;
+  text-align: left;
+}
+
+span.redirect {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="submit"] {
+  background-color: hotpink;
+  font-size: 1em;
+}
+
+footer {
+  margin-top: 20pt;
+  margin-right: 60%;
+}
+
+img#backIcon {
+  vertical-align: middle;
+}
+
+div#validators {
+  margin-top: 30px;
+}
