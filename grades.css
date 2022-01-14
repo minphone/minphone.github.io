@@ -1,0 +1,20 @@
+form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+label,
+input,
+select {
+  margin-top: 20pt;
+}
+
+label {
+  width: 100pt;
+  display: inline-block;
+  text-align: right;
+}
+
+fieldset {
+  text-align: center;
+}

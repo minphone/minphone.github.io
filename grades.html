@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Retrieve Grade</title>
+    <link href="grades.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <form action="http://mumstudents.org/params.php" method="get">
+        <fieldset>
+            <legend>Retrieve your grade</legend>
+            <label>Name :</label>
+            <input type="text" name="name">
+            <br>
+            <label>Student ID :</label>
+            <input type="text" name="studentID">
+            <br>
+            <label>Choose Assignment: </label>
+            <select name="assignment">
+                <option value="assignment1">Assignment 1 - HTML</option>
+                <option value="assignment2">Assignment 2 - CSS Styling</option>
+                <option value="assignment3">Assignment 3 - CSS Page Layout</option>
+                <option value="assignment4">Assignment 4 - HTML Form</option>
+            </select>
+            <br>
+            <label>Choose Entry:</label>
+            <input type="radio" name="entry" value="february" /> February
+            <input type="radio" name="entry" value="may" /> May
+            <input type="radio" name="entry" value="august" checked /> August
+            <input type="radio" name="entry" value="november" /> November
+            <br>
+            <input type="submit" value="Get Grade!">
+        </fieldset>
+    </form>
+</body>
+
+</html>
