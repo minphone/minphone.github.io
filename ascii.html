@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ASCIImation</title>
+    <script src="animations.js"></script>
+    <script src="ascii.js"></script>
+    <link href="ascii.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <img src="photo/heart.gif" id="imgHeart" alt="heart">
+    <h1>CS472: ASCII Animation Viewer</h1>
+    <textarea id="output" cols="80" rows="20"></textarea>
+    <div class="flex-container1">
+        <fieldset id="playControl">
+            <legend>Play Controls:</legend>
+            <button id="btnStart">Start</button>
+            <button id="btnStop">Stop</button>
+        </fieldset>
+        <fieldset id="flsAnimation">
+            <legend>Animation:</legend>
+            <select id="selAnnimation">
+            <option selected>Blank</option>
+            <option>Exercise</option>
+            <option>Juggler</option>
+            <option>Bike</option>
+            <option>Dive</option>
+            <option>Custom</option>
+        </select>
+        </fieldset>
+        <fieldset id="flsSize">
+            <legend>Size:</legend>
+            <select id="selSize">
+                <option value="7pt">Tiny</option>
+                <option value="10pt">Small</option>
+                <option value="12pt" selected>Medium</option>
+                <option value="16pt">Large</option>
+                <option value="24pt">Extra Large</option>
+                <option value="32pt">XXL</option>
+            </select>
+        </fieldset>
+        <fieldset id="flsSpeed">
+            <legend>Speed:</legend>
+            <input type="checkbox" id="chkSpeed"><label for="chkSpeed">Turbo</label>
+        </fieldset>
+    </div>
+    <div class="flex-container2">
+        <a href="http://validator.w3.org/check?uri=https://win-ei-khaing.github.io/ascii.html">
+            <img src="photo/w3c-html.png" alt="Valid HTML5" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://win-ei-khaing.github.io/ascii.css">
+            <img src="photo/w3c-css.png" alt="Valid CSS" />
+        </a>
+    </div>
+</body>
+
+</html>
